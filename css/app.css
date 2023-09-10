@@ -1,3 +1,7 @@
+:root{
+    --red:#dc3445;
+}
+
 /*---------Navbar-------*/
 
 .navbar-nav{
@@ -7,7 +11,7 @@
 }
 
 .navbar .nav-link:hover{
-    color: #dc3445 !important;
+    color: var(--red) !important;
 }
 
 
