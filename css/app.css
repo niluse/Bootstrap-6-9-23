@@ -3,7 +3,6 @@
 }
 
 /*---------Navbar-------*/
-
 .navbar-nav{
     font-size: 1.3rem !important;
     text-transform: uppercase !important;
@@ -14,11 +13,34 @@
     color: var(--red) !important;
 }
 
-
-
 /*-------Carousel------*/
-
-
+/*vh=> sayfayi actiginda gorunen beyaz alan*/
+.carousel-item{
+    max-height: calc(100vh - 95px);
+}
+.carousel-caption .btn{
+    width: 7rem;
+}
+.carousel-caption h5{
+    color: var(--red);
+    font-size: 2.4rem;
+    text-shadow: 3px 3px 3px black; /*3px x ekseninde 3px y ekseninde 3px blur siyah renk*/
+}
+.carousel-caption p{
+    font-weight: 600;
+    text-shadow: 3px 3px 3px black; /*3px x ekseninde 3px y ekseninde 3px blur siyah renk*/
+}
+.carousel-caption {
+    bottom: 5rem;
+}
+.carousel-indicators{
+    gap: 0.7rem;
+}
+.carousel-indicators button{
+    background-color: var(--red) !important;
+    padding: .1rem !important;
+    width: 3rem !important;
+}
 
 
 /*---------about section----------*/
