@@ -69,7 +69,15 @@ section#instructors i:hover{
 
 
 /*-----------courses section-----------------*/
-
+section#courses .nav-link.active{
+    background-color: var(--red);
+}
+section#courses .nav-link{
+    color: white;
+}
+section#courses .nav-pills{
+    font-size: 0.8rem;
+}
 
 
 
