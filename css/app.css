@@ -49,8 +49,18 @@
 
 
 /*------------instructors--------*/
-
-
+section#instructors .card{  /* id si instructors olan section daki card class ina sahip olanlarda hover olursa*/
+    transition: transform .5s;
+}
+section#instructors .card:hover{  /* id si instructors olan section daki card class ina sahip olanlarda hover olursa*/
+    transform: scale(1.03);
+}
+section#instructors i{
+    transition: opacity 0.5s;
+}
+section#instructors i:hover{
+    opacity: 0.5;
+}
 
 
 /*-------------students section-----------*/
