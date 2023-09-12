@@ -87,8 +87,35 @@ section#courses .nav-pills{
 
 
 /*-----------footer----------*/
-
+footer i{
+    color: white;
+    font-size: 2rem;
+    margin-right: 0.8rem;
+    transition: color 1s;
+}
+footer i:hover{
+    color: var(--red);
+}
 
 
 
 /*-----------button-----------*/
+.btn-up{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: var(--red);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: all .5s;
+}
+.btn-up:hover{
+    color: black;
+}
